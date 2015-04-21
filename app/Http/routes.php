@@ -11,11 +11,12 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
-
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
 
-Route::get('home', ['as' => 'home', 'uses' => 'HomeController@index']);
+Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
+Route::get('servicios', ['as' => 'services', 'uses' => 'ServiceController@index']);
+Route::get('productos', ['as' => 'articles', 'uses' => 'ArticleController@index']);
+Route::get('lutheria', ['as' => 'lutherie', 'uses' => 'LutherieController@index']);
