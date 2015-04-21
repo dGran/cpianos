@@ -18,8 +18,8 @@
 			<div class="thumbnail">
 				<img src="..." alt="...">
 				<div class="caption">
-					<h3>Luthería</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quaerat reiciendis, maiores. Iusto ad incidunt sit sint voluptatibus distinctio dolore harum, est corporis rerum dolorem voluptatem atque asperiores saepe accusamus.</p>
+					<h3>Servicios</h3>
+					<p>Servicio profesional de afinación para uso particular, conciertos, ensayos, grabaciones..., servicio de alquiler pianos de cola, verticales o electrónicos. Serivio de traslado de pianos.</p>
 					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
 				</div>
 			</div>
