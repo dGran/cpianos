@@ -33,10 +33,38 @@
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="{{ route('home') }}">Inicio</a></li>
+					@if (Route::current()->getName() == 'home')
+						<li class="active"><a href="{{ route('home') }}">Inicio</a></li>
+					@else 
+						<li><a href="{{ route('home') }}">Inicio</a></li>
+					@endif
 					<li><a href="{{ route('services') }}">Servicios</a></li>
 					<li><a href="{{ route('articles') }}">Productos</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Productos <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li>
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pianos <span class="caret"></span></a>
+										<ul class="dropdown-menu" role="menu">
+											<li><a href="#">Pianos de cola</a></li>
+											<li><a href="#">Pianos verticales</a></li>
+											<li class="divider"></li>
+											<li><a href="#">Pianos electrónicos</a></li>
+										</ul>
+
+								</li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+								<li class="divider"></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+					</li>					
 					<li><a href="{{ route('lutherie') }}">Luthería</a></li>
+					<li><a href="{{ route('home') }}">Sala Clemente</a></li>
+					<li class="divider"></li>
+					<li><a href="{{ route('home') }}">Contacto</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
