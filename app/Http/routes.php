@@ -20,3 +20,4 @@ Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 Route::get('servicios', ['as' => 'services', 'uses' => 'ServiceController@index']);
 Route::get('productos', ['as' => 'articles', 'uses' => 'ArticleController@index']);
 Route::get('lutheria', ['as' => 'lutherie', 'uses' => 'LutherieController@index']);
+Route::get('sala-clemente', ['as' => 'auditorium', 'uses' => 'AuditoriumController@index']);

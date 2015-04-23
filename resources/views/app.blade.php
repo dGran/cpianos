@@ -37,6 +37,7 @@
 					<li><a href="{{ route('services') }}">Servicios</a></li>
 					<li><a href="{{ route('articles') }}">Productos</a></li>
 					<li><a href="{{ route('lutherie') }}">Luthería</a></li>
+					<li><a href="{{ route('auditorium') }}">Sala Clemente</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
