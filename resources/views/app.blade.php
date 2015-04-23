@@ -62,9 +62,13 @@
 							</ul>
 					</li>					
 					<li><a href="{{ route('lutherie') }}">Luthería</a></li>
+<<<<<<< HEAD
 					<li><a href="{{ route('home') }}">Sala Clemente</a></li>
 					<li class="divider"></li>
 					<li><a href="{{ route('home') }}">Contacto</a></li>
+=======
+					<li><a href="{{ route('auditorium') }}">Sala Clemente</a></li>
+>>>>>>> master
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
